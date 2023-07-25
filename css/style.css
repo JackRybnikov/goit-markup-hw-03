@@ -64,6 +64,12 @@ ul {
   list-style: none;
 }
 
+.conteiner{
+  max-width: 1158px;
+  margin: 0;
+  padding: 0 15px;
+}
+
 /* header */
 
 .header{
@@ -74,16 +80,14 @@ ul {
   color: var(--navy-color);
 
   display: flex;
-  gap: 332px;
+  /* gap: 332px; */
   
-  padding: 24px 156px;
-
-  
+  /* padding: 24px 156px;   */
 }
 
-.header-nav-container {
+.header-nav {
   display: flex;
-  gap: 76px;
+  align-items: center;
 }
 
 .logo-header {
@@ -93,6 +97,8 @@ ul {
   font-size: 18px;
   line-height: 1.17;
   letter-spacing: 0.03em;
+
+  margin-right: 76px;
 
   color: var(--iris-color);
 }
