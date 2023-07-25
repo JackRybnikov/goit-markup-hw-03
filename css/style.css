@@ -28,6 +28,10 @@ body {
   width: 1440px;
 }
 
+img{
+  display: block;
+}
+
 h1,
 h2,
 h3,
