@@ -81,7 +81,6 @@ ul {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 76px;
 }
 
 .logo-header {
@@ -93,6 +92,8 @@ ul {
   letter-spacing: 0.03em;
 
   color: var(--iris-color);
+
+  margin-right: 76px;
 }
 
 .logo-header-studio {
