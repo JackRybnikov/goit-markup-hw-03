@@ -58,8 +58,6 @@ ul {
 
 .container{
   width: 1158px;
-  padding-left: 15px;
-  padding-right: 15px;
   margin: 0 auto;
 }
 
@@ -72,12 +70,13 @@ ul {
 .header-container {
   color: var(--navy-color);
 
+  padding-left: 15px;
+  padding-right: 15px;
+
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 332px;
-  
-  padding: 24px 0;
 }
 
 .header-nav-container {
