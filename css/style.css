@@ -313,7 +313,7 @@ ul {
   letter-spacing: 0.02em;
   color: var(--navy-color);
 
-  padding-bottom: 72px;
+  margin-bottom: 72px;
 }
 
 .index-four-list-container {
@@ -323,7 +323,7 @@ ul {
 
 .index-our-team-list-el {
   background-color: var(--white-color);
-  width: 264px;
+  flex-basis: calc((100% - 3 * 24px) / 4);
   height: 380px;
 
   border-radius: 0 0 4px 4px;
