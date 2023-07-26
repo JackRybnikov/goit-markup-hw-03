@@ -414,12 +414,13 @@ ul {
 .portfolio-list-items-item {
   border: 1px solid var(--cornflower-color);
 
-  width: 360px;
+  width: calc((100% - 48px) / 3);
   height: 420px;
 }
 
 .portfolio-list-items-text {
-  padding: 32px 0;
+  padding: 32px 16px;
+  border: 1px solid var(--cornflower-color);
 }
 
 .portfolio-list-items-title {
@@ -428,6 +429,8 @@ ul {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--navy-color);
+
+  margin-bottom: 8px;
 }
 
 .portfolio-list-items-p {
