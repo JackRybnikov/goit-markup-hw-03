@@ -74,13 +74,13 @@ ul {
   padding-right: 15px;
 
   display: flex;
-  align-items: center;
-  justify-content: center;
   gap: 332px;
 }
 
-.header-nav-container {
+.header-nav {
   display: flex;
+  align-items: center;
+  justify-content: center;
   gap: 76px;
 }
 
