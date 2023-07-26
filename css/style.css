@@ -157,11 +157,12 @@ ul {
   background-color: var(--navy-color);
   letter-spacing: 0.04em;
 
-  padding: 100px 156px;
+  padding: 100px 0;
 }
 
-.footer-conteiner {
+.footer-text{
   width: 264px;
+  margin: 0 156px;
 }
 
 .logo-footer {
@@ -172,6 +173,9 @@ ul {
   font-size: 18px;
   line-height: 1.17;
   letter-spacing: 0.03em;
+
+  display: inline-block;
+  margin-bottom: 16px;
 }
 
 .logo-footer-studio {
@@ -344,6 +348,8 @@ ul {
   font-weight: 500;
   font-size: 20px;
   letter-spacing: 0.02em;
+
+  margin-bottom: 8px;
 }
 
 .index-our-team-p {
