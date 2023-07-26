@@ -389,6 +389,7 @@ ul {
   line-height: 1.5;
   letter-spacing: 0.04em;
   cursor: pointer;
+  border-radius: 4px;
 
   padding: 12px 24px;
 
@@ -399,6 +400,7 @@ ul {
 .portfolio-button-button:focus {
   background-color: var(--ocean-color);
   color: var(--white-color);
+  border: 1px solid transparent;
 }
 
 .portfolio-list-items {
