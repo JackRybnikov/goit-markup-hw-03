@@ -102,19 +102,17 @@ ul {
   color: var(--navy-color);
 }
 
-.header-list-el {
-  padding: 24px 0;
-}
-
 .header-list-link {
   display: flex;
   gap: 40px;
+  /* padding: 24px 0; */
 }
 
 .header-list-link-el {
   font-weight: 500;
 
   color: var(--navy-color);
+  padding: 24px 0;
 }
 
 .header-list-link-el:hover,
