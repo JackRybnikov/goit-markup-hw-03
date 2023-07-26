@@ -61,6 +61,19 @@ ul {
   margin: 0 auto;
 }
 
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+  }
+
 /* header */
 
 .header {
@@ -233,8 +246,6 @@ ul {
   font-weight: 700;
   font-size: 36px;
   letter-spacing: 0.02em;
-
-  display: none;
 }
 
 .index-two-list-container {
@@ -243,7 +254,7 @@ ul {
 }
 
 .index-two-list-element {
-  width: 264px;
+  width: calc((100% - 72px) / 4);
 }
 
 .index-our-strength-list-title {
