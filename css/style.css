@@ -105,11 +105,12 @@ ul {
 .header-list-link {
   display: flex;
   gap: 40px;
-}
-
-.header-list-el{
+  
   padding: 24px 0;
 }
+/* 
+.header-list-el{
+} */
 
 .header-list-link-el {
   font-weight: 500;
