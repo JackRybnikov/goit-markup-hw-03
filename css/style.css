@@ -359,16 +359,16 @@ ul {
 
 /* Style for portfolio page */
 
+.portfolio-button{
+  padding: 96px 0 120px;
+}
+
 .portfolio-title {
   color: var(--white-color);
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
   letter-spacing: 0.02em;
-}
-
-.portfolio-container {
-  padding: 96px 156px 120px;
 }
 
 .portfolio-button-list {
