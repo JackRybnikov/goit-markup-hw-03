@@ -160,11 +160,6 @@ ul {
   padding: 100px 0;
 }
 
-.footer-text{
-  width: 264px;
-  margin: 0 156px;
-}
-
 .logo-footer {
   text-transform: uppercase;
   color: var(--iris-color);
@@ -175,7 +170,9 @@ ul {
   letter-spacing: 0.03em;
 
   display: inline-block;
-  margin-bottom: 16px;
+  
+  width: 264px;
+  margin: 0 156px 16px;
 }
 
 .logo-footer-studio {
@@ -185,6 +182,9 @@ ul {
 .footer-p {
   color: var(--cloud-color);
   letter-spacing: 0.02em;
+  
+  width: 264px;
+  margin: 0 156px;
 }
 
 /* Style for index page */
