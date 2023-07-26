@@ -236,7 +236,7 @@ ul {
 /* 2 section index */
 
 .index-our-strength {
-  padding: 120px 156px;
+  padding: 120px 0;
 }
 
 .index-our-strength-title {
@@ -287,8 +287,6 @@ ul {
 }
 
 .index-what-we {
-  margin-left: 156px;
-  margin-right: 156px;
   padding-bottom: 120px;
 }
 
@@ -304,7 +302,7 @@ ul {
 /* 4 section index */
 
 .index-our-team {
-  padding: 120px 156px;
+  padding: 120px 0;
 
   background-color: var(--cloud-color);
 }
