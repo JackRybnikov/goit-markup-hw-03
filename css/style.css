@@ -172,7 +172,7 @@ ul {
   display: inline-block;
   
   width: 264px;
-  margin: 0 156px 16px;
+  margin-bottom: 16px;
 }
 
 .logo-footer-studio {
@@ -184,7 +184,6 @@ ul {
   letter-spacing: 0.02em;
   
   width: 264px;
-  margin: 0 156px;
 }
 
 /* Style for index page */
