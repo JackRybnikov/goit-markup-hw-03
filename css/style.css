@@ -332,7 +332,6 @@ ul {
 .index-our-team-list-el {
   background-color: var(--white-color);
   flex-basis: calc((100% - 3 * 24px) / 4);
-  height: 380px;
 
   border-radius: 0 0 4px 4px;
 
@@ -415,8 +414,6 @@ ul {
 }
 
 .portfolio-list-items-item {
-  border: 1px solid var(--cornflower-color);
-
   width: calc((100% - 48px) / 3);
 }
 
