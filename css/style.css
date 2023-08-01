@@ -77,11 +77,11 @@ ul {
   overflow: hidden;
 }
 
-.header-nav .header-list-link .curent{
+.header-nav .header-list-link .curent {
   color: var(--ocean-color);
 }
 
-.header-nav .header-list-link .curent::after{
+.header-nav .header-list-link .curent::after {
   width: 100%;
   display: block;
   content: "";
@@ -454,7 +454,7 @@ ul {
 
 /* 5 section of index */
 
-.index-five{
+.index-five {
   padding: 120px;
 }
 
